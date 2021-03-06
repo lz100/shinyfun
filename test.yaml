@@ -1,0 +1,31 @@
+## remote messages to notify users in the app
+## When app starts, it will first try to load this file from online
+## type: one of package or general
+## expire: a date to display before the date
+## icon: any font-awesome icon name
+## status: one of primary, success, info, warning, danger
+-
+    type: package
+    pkg_name: systemPipeShiny
+    version: 1.1.20
+    title: SPS 1.1.20 available
+    expire:
+    icon: info
+    status: info
+    message: |
+        # saasas
+        dasdsadsd
+        dddddddd
+
+-
+    type: general
+    pkg_name:
+    version:
+    title: Manual updated
+    expire: 2021-03-08
+    icon:
+    status:
+    message: |
+        # saasas
+        dasdsadsd
+        dddddddd
